@@ -1,5 +1,5 @@
 html{
-    height: 100%
+    height: 100%;
 }
 
 body{
@@ -15,7 +15,6 @@ header{
     padding: 20px;
     text-align: center;
     height: 100px;
-    
 }
 
 .head-container{
@@ -111,6 +110,7 @@ div.main-contens{
 }
 
 .main-image1 img{
+    border-radius: 10px;
     filter: drop-shadow(8px 8px 10px rgb(35, 32, 32))
 }
 
@@ -127,10 +127,90 @@ div.main-contens{
 
 footer{
     background-color: #f05a28;
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     width: 100%;
     font-size: 20px;
     text-align: center;
     padding: 5px;
 }
+
+/*-------------- project----------------------*/
+
+.aboutme-contets{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1em;
+    border: 1px solid #03a678;
+    border-radius: 5px;
+    padding: 2em;
+    box-shadow: 0 0 10px grey;
+    margin: 5em 10em;
+}
+
+.aboutme-contets .aboutme-text{
+    margin: 1em;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+.aboutme-contets .aboutme-text h2{
+    color:#f2421b;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0;
+}
+
+.aboutme-contets .aboutme-text p{
+    line-height: 2em;
+    font-size: 22px;
+}
+
+.aboutme-contets .about-image{
+    padding: 1em;
+    margin: auto;
+
+}
+
+.aboutme-contets .about-image img{
+    border-radius: 10px;
+    filter: drop-shadow(4px 4px 5px grey)
+    /* width: 100%; */
+}
+
+.program .program-text h2{
+    color: #03a678;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.program{
+}
+
+.program .program-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em;
+    padding: 3em;
+}
+
+.program-info img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.program-info h2{
+    color:#03a678;
+    text-align: center;
+    font-size: 30px;
+}
+
+/*-------------- contatc----------------------*/
+
+
+
+
+
+
