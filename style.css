@@ -117,7 +117,7 @@ main .main-container{
 .main-image2{
     position: relative;
     left: 0px;
-    top: 450px;
+    top: 500px;
 }
 
 .main-image2 img{
@@ -189,7 +189,7 @@ footer{
 .program .program-info{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 2em;
+    gap: 3em;
     padding: 3em;
 }
 
@@ -197,6 +197,10 @@ footer{
     width: 100%;
     border-radius: 10px;
 
+}
+
+.program-info img:hover{
+    box-shadow: 0 0 25px 5px rgb(57, 54, 54);
 }
 
 .program-info h2{
