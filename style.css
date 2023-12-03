@@ -83,7 +83,7 @@ main .main-container{
     left:60px;
 }
 
-div.main-contens{
+.main-contens{
     position: relative;
     background-color: #027353;
     padding: 20px;
@@ -185,8 +185,6 @@ footer{
     margin-bottom: 1em;
 }
 
-.program{
-}
 
 .program .program-info{
     display: grid;
@@ -208,6 +206,137 @@ footer{
 }
 
 /*-------------- contatc----------------------*/
+
+.info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5em;
+    padding: 20px;
+    border: 1px solid #f2e1d8;
+    box-shadow: 0 0 10px grey;
+    border-radius: 5px;
+    margin: 6em;
+}
+
+.info .info-card{
+    border: 1px solid grey;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.info .info-card .logo a{
+    font-size: 3em;
+    color:#03a678;
+}
+
+.info .info-card .text{
+    color:#f05a28
+}
+
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 3em;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-bottom: 3em;
+}
+
+.contact .image img{
+    width: 100%;
+    padding: 2em;
+}
+
+.contact .contact-detail{
+    margin-left: 100px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 0 0 10px grey;
+}
+
+.contact-detail .cotact-detail-title{
+    margin-left: 30px;
+}
+
+
+
+.contact .contact-detail h3{
+    font-size: 40px;
+    color:#027353
+}
+
+.inputbox1{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 30px;
+    padding-top: 0px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+
+}
+
+.inputbox2{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 30px;
+    padding-left: 30px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+
+
+.inputbox1 input{
+    height: 40px;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: red;
+}
+
+.inputbox2 input{
+    height: 40px;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+}
+
+.input-msg{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    gap:30px; 
+    padding-left: 30px;
+}
+
+.input-msg textarea{
+    height: 200px;
+    width: 630px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.input-msg button{
+    height: 40px;
+    width: 170px;
+    background:#eeeeee;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+
+
+
+
 
 
 
